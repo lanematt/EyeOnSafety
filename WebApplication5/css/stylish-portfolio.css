@@ -16,7 +16,10 @@ body {
 body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+#mapButtons {
+    background-color:black;
 
+}
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -117,6 +120,10 @@ hr.small {
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
+}
+#success_message{ 
+    display: none;
+
 }
 
 .sidebar-nav > .sidebar-brand {
@@ -229,6 +236,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background-color:black;
 }
 
 .call-to-action .btn {

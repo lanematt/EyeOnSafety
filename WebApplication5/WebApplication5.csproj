@@ -122,6 +122,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\Header-Blue.css" />
     <Content Include="css\stylish-portfolio.css" />
     <Content Include="img\bg.jpg" />
     <Content Include="img\callout.jpg" />
@@ -129,6 +130,7 @@
     <Content Include="img\portfolio-2.jpg" />
     <Content Include="img\portfolio-3.jpg" />
     <Content Include="img\portfolio-4.jpg" />
+    <Content Include="js\Profile.js" />
     <Content Include="js\stylish-portfolio.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
