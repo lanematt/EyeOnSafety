@@ -122,14 +122,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\Header-Blue.css" />
+    <Content Include="css\grayscale.css" />
+    <Content Include="css\grayscale.min.css" />
     <Content Include="css\stylish-portfolio.css" />
+    <Content Include="fonts\ElegantIcons.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="img\Abstract-background.jpg" />
+    <Content Include="img\logo.jpg" />
+    <Content Include="login.html" />
+    <Content Include="Profile.html" />
     <Content Include="img\bg.jpg" />
-    <Content Include="img\callout.jpg" />
-    <Content Include="img\portfolio-1.jpg" />
-    <Content Include="img\portfolio-2.jpg" />
-    <Content Include="img\portfolio-3.jpg" />
-    <Content Include="img\portfolio-4.jpg" />
     <Content Include="js\Profile.js" />
     <Content Include="js\stylish-portfolio.js" />
     <Content Include="packages.config" />
@@ -137,6 +140,26 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="packages.json" />
+    <Content Include=".gitignore" />
+    <Content Include=".travis.yml" />
+    <Content Include="LICENSE" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="PublishProfiles\EyeOnSafety.PublishSettings">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="fonts\ElegantIcons.eot" />
+    <Content Include="fonts\ElegantIcons.ttf" />
+    <Content Include="fonts\ElegantIcons.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Properties\PublishProfiles\EyeOnSafety - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\EyeOnSafety - Web Deploy.pubxml" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff" />
@@ -170,11 +193,6 @@
     <Content Include="vendor\font-awesome\scss\_screen-reader.scss" />
     <Content Include="vendor\font-awesome\scss\_stacked.scss" />
     <Content Include="vendor\font-awesome\scss\_variables.scss" />
-    <Content Include=".gitignore" />
-    <Content Include=".travis.yml" />
-    <Content Include="LICENSE" />
-    <Content Include="package.json" />
-    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
