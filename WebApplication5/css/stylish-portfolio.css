@@ -303,3 +303,26 @@ span.req {
            color:white;
            font-size:710%;
 }
+
+.large-font {
+    font-size: x-large;
+}
+
+.homepage-content {
+    position: absolute; 
+    left: 400px;
+    top: 500px;
+    width: 500px;
+}
+
+.blurredbackground {
+    position: absolute; 
+    left: 0px;
+    top: 0px;
+    width: 500px;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    z-index: -1;
+}

@@ -19,6 +19,7 @@ html {
   padding-right: 15px;
   padding-left: 15px;
   width: 100%;
+    background-color:azure !important;
 }
 
 @media (min-width: 576px) {
