@@ -149,6 +149,7 @@
     <Content Include="img\Abstract-background.jpg" />
     <Content Include="img\logo.jpg" />
     <Content Include="img\red-background.png" />
+    <Content Include="img\Rplot.jpg" />
     <Content Include="login.html" />
     <Content Include="marker.png" />
     <Content Include="Profile.html" />
@@ -170,6 +171,7 @@
     </Content>
     <None Include="Properties\PublishProfiles\EyeOnSafety - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\EyeOnSafety - Web Deploy.pubxml" />
+    <Content Include="ResourceManager.html" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff" />
