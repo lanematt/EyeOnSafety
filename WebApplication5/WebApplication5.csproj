@@ -165,6 +165,7 @@
     <Content Include=".travis.yml" />
     <Content Include="LICENSE" />
     <Content Include="package.json" />
+    <Content Include="ProfileInfo.html" />
     <Content Include="README.md" />
     <Content Include="PublishProfiles\EyeOnSafety.PublishSettings">
       <SubType>Designer</SubType>
