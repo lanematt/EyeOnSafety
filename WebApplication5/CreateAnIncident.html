@@ -20,9 +20,18 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='custom.css' rel='stylesheet' type='text/css'>
+    <style>
+        #map {
+            height: 700px;
+            width: 50%;
+            align-content:center;
+            padding-left:40%;
+            align-content:center;
+            margin-left:450px;
+        }
+    </style>
 </head>
-<body style="background-image:url(img/red-background.png)">
-    <!-- Navigation -->
+<body style="background-image:url(img/Abstract-background.jpg);">
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
         <i class="fa fa-bars"></i>
     </a>
@@ -31,6 +40,10 @@
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
                 <i class="fa fa-times"></i>
             </a>
+            <li>
+                <p style="color:white;">Admin User: lanem</p>
+                <br /><br />
+            </li>
             <li>
                 <a class="js-scroll-trigger" href="index.html">Home</a>
             </li>
@@ -41,57 +54,34 @@
                 <a class="js-scroll-trigger" href="FirstRes.html">First Responder Registration</a>
             </li>
             <li>
-                <a class="js-scroll-trigger" href="CreateAnIncident.html"  onclick=$( "#menu-close" ).click();>Create an Incident</a>
+                <a class="js-scroll-trigger" href="CreateAnIncident.html" onclick=$( "#menu-close" ).click();>Create an Incident</a>
+            </li>
+            <li>
+                <a class="js-scroll-trigger" href="ResourceManager.html" onclick=$( "#menu-close" ).click();>Resource Manager</a>
+            </li>
+            <li>
+                <a class="js-scroll-trigger" href="ProfileInfo.html" onclick=$( "#menu-close" ).click();>Your Profile Information</a>
             </li>
         </ul>
     </nav>
-        <div class="container">
+    <h1 style="text-align:center;color:white;">Create an Incident </h1>
+    <div id="map"></div>
+  <button class="btn-light btn-lg" style="margin-left:900px;">Submit</button>
 
-            <div class="row">
 
-                <div class="col-lg-8 col-lg-offset-2">
-
-                 <h2 class="container"style="color:white;">  Please add where you have seen an accident, and then submit! </h2>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div id="map" style="width:50%; text-align:center;margin-left:300px; "></div>
-    <div class="btn-lg" style="margin-left:550px;" >
-        <p id="demo" style="color:white;"></p>
-        <button onclick="myFunction()">Submit</button>
-
-        
-
-        <script>
-function myFunction() {
-    var txt;
-    var r = confirm(" OK or Cancel.\nIf you press okay, this incident will be submitted.");
-    if (r == true) {
-        txt = "Submitted";
-    } else {
-        txt = "You pressed Cancel!";
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-        </script>
-    </div>
-    <script type="text/javscript">
-    </script>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
-    <script src="custom.js"></script>
+<script type="text/javscript">
+</script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Custom scripts for this template -->
+<script src="js/stylish-portfolio.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk__WL9hsftcUf8mvpvSwMtwEIX0OqU80&callback=initMap"></script>
+<script src="custom.js"></script>
 </body>
 </html>

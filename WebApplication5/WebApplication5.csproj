@@ -147,9 +147,12 @@
     <Content Include="FirstRes.html" />
     <Content Include="CreateAnIncident.html" />
     <Content Include="img\Abstract-background.jpg" />
+    <Content Include="img\harrisburg.jpg" />
     <Content Include="img\logo.jpg" />
+    <Content Include="img\pitt.jpg" />
     <Content Include="img\red-background.png" />
     <Content Include="img\Rplot.jpg" />
+    <Content Include="img\shrubs.jpg" />
     <Content Include="login.html" />
     <Content Include="marker.png" />
     <Content Include="Profile.html" />
